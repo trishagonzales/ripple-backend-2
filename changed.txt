@@ -1,0 +1,5 @@
+2. PUT /profiles route --> /profiles/me
+3. POST /users/validate-password --> /users/password/validate
+4. PUT /posts/:id/likes --> /posts/:id/like
+4. PUT /posts/:id/unlikes --> /posts/:id/unlike
+5. changed user document structure

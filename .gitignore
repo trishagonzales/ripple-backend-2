@@ -1,0 +1,9 @@
+*.log
+.vscode
+node_modules/
+build/
+
+.env
+.env.development
+.env.production
+.env.test

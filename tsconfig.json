@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "lib": ["ES6", "ESNext"],
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "sourceMap": true,
+    "outDir": "./build",
+    "baseUrl": ".",
+    "rootDir": "./src",
+    "pretty": true,
+    "paths": {
+      "@root/*": ["src/*"],
+      "@api/*": ["src/api/*"],
+      "@models/*": ["src/models/*"],
+      "@services/*": ["src/services/*"],
+      "@startup/*": ["src/startup/*"],
+      "@types/*": ["src/types/*"],
+      "@utils/*": ["src/utils/*"],
+      "@test-utils/*": ["src/test-utils/*"]
+    },
+
+    "removeComments": true,
+    "alwaysStrict": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": false,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true
+  },
+
+  "include": ["./src/**/*.ts"],
+  "exclude": ["./node_modules", "./build", "./tests", "/**/*.{test,spec}.{ts,js}"]
+}
